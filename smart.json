@@ -1,8 +1,0 @@
-{
-	"name": "filesaver",
-	"description": "A smart package that provides filesaver.js to the Meteor client",
-	"homepage": "https://github.com/Meloncon/meteor-filesaver",
-	"author": "Matt Meloncon",
-	"version": "0.0.3",
-	"git": "https://github.com/Meloncon/meteor-filesaver.git"
-}
