@@ -1,10 +1,11 @@
 Package.describe({
+  name: "pfafman:filesaver",
 	summary: "filesaver.js packaged for use in Meteor.",
-  version: "0.1.0",
+  version: "0.2.0",
   git: "https://github.com/pfafman/meteor-filesaver.git"
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom("METEOR@0.9.0");
+  api.versionsFrom("METEOR@1.0");
 	api.add_files('lib/FileSaver.js', 'client');
 });
