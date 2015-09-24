@@ -5,7 +5,7 @@ Package.describe({
   git: "https://github.com/pfafman/meteor-filesaver.git"
 });
 
-Package.on_use(function (api) {
+Package.onUse(function (api) {
   api.versionsFrom("METEOR@1.0");
 	api.add_files('lib/FileSaver.js', 'client');
 });
