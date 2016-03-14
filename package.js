@@ -6,6 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
+  api.export(['saveAs'])
   api.versionsFrom("METEOR@1.0");
 	api.add_files('lib/FileSaver.js', 'client');
 });
