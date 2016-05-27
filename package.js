@@ -1,7 +1,7 @@
 Package.describe({
   name: "pfafman:filesaver",
 	summary: "filesaver.js packaged for use in Meteor.",
-  version: "0.2.3_2",
+  version: "1.2.2",
   git: "https://github.com/pfafman/meteor-filesaver.git"
 });
 
